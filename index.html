@@ -7,34 +7,51 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
+        nav { background: #2c3e50; color: white; padding: 15px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        nav ul { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+        nav a { color: white; text-decoration: none; font-weight: 500; transition: 0.3s; }
+        nav a:hover { color: #667eea; }
         .container { max-width: 1000px; margin: 0 auto; background: white; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
-        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; text-align: center; }
-        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 60px 40px; text-align: center; }
+        h1 { font-size: 2.8em; margin-bottom: 10px; }
+        .tagline { font-size: 1.2em; margin-bottom: 20px; opacity: 0.95; }
         .contact { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px; font-size: 0.9em; }
         .contact a { color: white; text-decoration: none; }
         .contact a:hover { text-decoration: underline; }
-        .section { padding: 30px 40px; border-bottom: 1px solid #eee; }
-        h2 { color: #667eea; margin-bottom: 15px; font-size: 1.8em; border-bottom: 3px solid #667eea; padding-bottom: 5px; }
+        .section { padding: 40px 40px; border-bottom: 1px solid #eee; }
+        h2 { color: #667eea; margin-bottom: 20px; font-size: 2em; border-bottom: 3px solid #667eea; padding-bottom: 10px; }
         h3 { color: #764ba2; margin: 15px 0 5px; font-size: 1.2em; }
-        .job { margin-bottom: 25px; }
-        .job-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
-        .company { font-weight: bold; color: #667eea; }
-        .date { color: #666; font-size: 0.9em; }
+        .job { margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-left: 4px solid #667eea; border-radius: 5px; }
+        .job-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; flex-wrap: wrap; }
+        .company { font-weight: bold; color: #667eea; font-size: 1.05em; }
+        .date { color: #666; font-size: 0.9em; font-style: italic; }
         ul { margin-left: 20px; margin-top: 10px; }
         li { margin-bottom: 8px; }
         .skills { display: flex; flex-wrap: wrap; gap: 10px; }
         .skill { background: #667eea; color: white; padding: 8px 15px; border-radius: 20px; font-size: 0.9em; }
-        .download { text-align: center; padding: 20px; background: #f9f9f9; }
-        .btn { display: inline-block; background: #667eea; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; transition: 0.3s; }
-        .btn:hover { background: #764ba2; }
-        @media print { body { background: white; } .container { box-shadow: none; } .download { display: none; } }
+        .download { text-align: center; padding: 30px; background: #f9f9f9; }
+        .btn { display: inline-block; background: #667eea; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; transition: 0.3s; font-weight: 500; }
+        .btn:hover { background: #764ba2; transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px; }
+        @media (max-width: 768px) { h1 { font-size: 2em; } nav ul { gap: 15px; } .job-header { flex-direction: column; align-items: flex-start; } }
+        @media print { body { background: white; } .container { box-shadow: none; } nav, .download, footer { display: none; } }
     </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <header>
             <h1>Ehsan Ali</h1>
-            <p>Senior DevOps Engineer</p>
+            <p class="tagline">Senior DevOps Engineer | AWS & Azure Specialist</p>
             <div class="contact">
                 <span>📍 Mannheim, Germany</span>
                 <span>📞 +49 176 16475445</span>
@@ -44,12 +61,12 @@
             </div>
         </header>
 
-        <div class="section">
-            <h2>Professional Summary</h2>
+        <div class="section" id="about">
+            <h2>About Me</h2>
             <p>Versatile DevOps Engineer with extensive experience in cloud infrastructure (AWS, Azure), CI/CD automation, and container orchestration. Proven track record of migrating on-premises data centers to cloud, implementing secure infrastructure, and automating SDLC processes. Expert in Jenkins, Ansible, Kubernetes, Docker, Terraform, and monitoring solutions (ELK, Grafana).</p>
         </div>
 
-        <div class="section">
+        <div class="section" id="skills">
             <h2>Technical Skills</h2>
             <div class="skills">
                 <span class="skill">AWS</span>
@@ -70,7 +87,7 @@
             </div>
         </div>
 
-        <div class="section">
+        <div class="section" id="experience">
             <h2>Professional Experience</h2>
             
             <div class="job">
@@ -140,7 +157,7 @@
             </div>
         </div>
 
-        <div class="section">
+        <div class="section" id="certifications">
             <h2>Certifications</h2>
             <ul>
                 <li>Amazon Solution Architect Certified (AWS)</li>
@@ -152,15 +169,32 @@
             </ul>
         </div>
 
-        <div class="section">
+        <div class="section" id="education">
             <h2>Education</h2>
             <h3>MSc in Information Technology</h3>
             <p>Superior University, Lahore, Pakistan | 2019</p>
         </div>
 
+        <div class="section" id="contact">
+            <h2>Get In Touch</h2>
+            <div style="text-align: center; padding: 20px;">
+                <p style="font-size: 1.1em; margin-bottom: 20px;">I'm always open to discussing new opportunities and collaborations.</p>
+                <div style="display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: 0 auto; text-align: left;">
+                    <div><strong>📍 Location:</strong> Mannheim, Germany</div>
+                    <div><strong>📞 Phone:</strong> <a href="tel:+4917616475445" style="color: #667eea; text-decoration: none;">+49 176 16475445</a></div>
+                    <div><strong>✉️ Email:</strong> <a href="mailto:ehsanmuhammadali121@gmail.com" style="color: #667eea; text-decoration: none;">ehsanmuhammadali121@gmail.com</a></div>
+                    <div><strong>💼 LinkedIn:</strong> <a href="https://www.linkedin.com/in/ehsan-muhammad-ali-390490193" target="_blank" style="color: #667eea; text-decoration: none;">View Profile</a></div>
+                    <div><strong>🔗 Xing:</strong> <a href="https://www.xing.com/profile/ehsan_ali031699/cv" target="_blank" style="color: #667eea; text-decoration: none;">View Profile</a></div>
+                </div>
+            </div>
+        </div>
+
         <div class="download">
-            <a href="Ehsan%20Ali%20Resume%20(1)-1.pdf" class="btn" download>Download PDF Resume</a>
+            <a href="Ehsan%20Ali%20Resume%20(1)-1.pdf" class="btn" download>📄 Download PDF Resume</a>
         </div>
     </div>
+    <footer>
+        <p>&copy; 2024 Ehsan Ali. All rights reserved.</p>
+    </footer>
 </body>
 </html>
