@@ -1,0 +1,140 @@
+Ehsan  Muhammad  Ali 
+Langer Weg 1 65760 Eschborn (Germany)  
+Cell #: +4917616475445  
+Email : ehsanmuhammadali121@gmail.com  
+LinkedIn : https://www.linkedin.com/in/ehsan -muhammad -ali-390490193  
+Xing: https://www.xing.com/profile/ehsan_ali031699/cv  
+ 
+Professional  Summary  
+Having versatile experience of working on complex projects proceeding to successful deliveries by using tools and services, J enkins, Ansible 
+server, AWS infrastructure , Microsoft Azure, Azure Kubernetes services, Nginx, Cloudflare, Graf ana, ELK stack, Tomcat 9.0, Python, YAML 
+files, Azure Active Directory, CHEF configuration management, SQL Server, Proxy Services, Docker , Kubectl , SAP Administrati on ,Microsoft 
+Windows  Servers  , Domain Controller , DNS mapping , Palo alto firewalls  , red hat Ubuntu Administration, Bitbucket ,Jira , Autotask , GitHub , 
+Design highly available infrastructure using best Kubernetes services  & security practices, supporting Dev, Info - Sec & QA teams to adopt 
+DevOps  & automating  SDLC  processes.  I've spearheade d the seamless  migration  of on-premises  data  centers  to the cloud,  skillfully  optimizing 
+existing infrastructure to curtail cloud costs. Proficient in both AWS and Azure, I've orchestrated infrastructure management  fortified by top - 
+tier security practices. My automation prowess shines through Python scripts, seamlessly replacing manual operations, thus amplifying 
+efficiency and precision.  
+Projects  
+ Experienced IT professional adept in Active Directory and 
+Group Policy management on Windows Server 
+environments. Proficient in configuring and optimizing 
+network infrastructure, ensuring seamless integration 
+between Windows and Ubuntu systems.  
+ Designed and implemented automated CI/CD pipelines 
+using Jenkins and Ansible, resulting in accelerated  
+software delivery cycles and enhanced code quality. 
+Utilized Infrastructure as Code (IaC) principles to provision 
+and configure AWS and Azure resources for different 
+environments, ensuring consistency and scalability.  
+ Led the migration of on -premises applications to AWS 
+infrastructure, optimizing resource utilization and 
+improving application performance. Implemented Azure 
+Kubernetes Service (AKS) to orchestrate containerized 
+applications, enabling seamless scaling and efficient 
+resource management.  
+ Architected a s ecure web application infrastructure by 
+deploying Nginx reverse proxy and integrating Cloudflare 
+for DDoS protection and enhanced security. Implemented 
+Web Application Firewall (WAF) rules to mitigate security 
+threats and ensure robust application security . 
+ Implemented the ELK (Elasticsearch, Logstash, Kibana) 
+stack to centralize and visualize logs, enabling efficient 
+troubleshooting and proactive monitoring. Integrated 
+Grafana dashboards for real -time visibility into application 
+and infrastructure metrics,  leading to prompt issue 
+detection and resolution.  
+ Designed and deployed containerized applications using 
+Docker, orchestrated by Kubernetes. Implemented 
+advanced Kubernetes features like Horizontal Pod 
+Autoscaling and Load Balancing to ensure optimal 
+appl ication performance and resource utilization.   Designed and implemented Azure Active Directory 
+solutions for seamless user authentication and 
+authorization across various applications. Configured 
+Single Sign -On (SSO) and Multi -Factor Authentication 
+(MFA) to  enhance security while maintaining user 
+convenience.  
+ Spearheaded the adoption of DevOps practices across 
+multiple teams, facilitating collaboration and 
+streamlining the software delivery process. Automated 
+SDLC processes using YAML files, Ansible playbook s, 
+and CI/CD pipelines, resulting in reduced manual 
+interventions and faster releases.  
+ Implemented CHEF for configuration management, 
+ensuring consistent application and infrastructure 
+configurations across diverse environments. 
+Orchestrated provisioning, deployment, and updates  of 
+applications and services using CHEF recipes and 
+cookbooks.  
+ Managed SAP systems, optimizing performance, and 
+ensuring high availability through proactive monitoring 
+and fine -tuning. Implemented backups, disaster 
+recovery plans, a nd performance tuning strategies to 
+maintain stable SAP landscapes.  
+ Designed and deployed network security solutions  
+using Palo Alto firewalls to protect against advanced 
+threats and ensure secure data transmission.  
+ Configured security policies, intrusion prevention 
+systems, and VPN tunnels to safeguard network 
+communications.  
+ Led the migration of a legacy Java application from an 
+older version of Java to a more recent one, ensuring 
+compatibility and functionality. Performed thorough 
+testing  and validation  to ensure  the application  
+operated  as expected  in the new  environment.  
+Experience  
+ 
+ORGANIZATION   Syrocon,  Germany  August  2024  TO PRESENT  WWW .syrocon .COM   
+DESIGNATION  Sr DevOps  Engineer   
+JOB  DESCRIPTION  Sr DevOps Engineer at Syrocon, responsible for architecting and maintaining Azure infrastructure.  
+Configured and managed Entra ID, Azure AD, and implemented secure SSO solutions.  
+Automated infrastructure provisioning using Terraform following I aC best practices.  
+Designed and maintained GitLab CI/CD pipelines for scalable microservice deployments.  
+Implemented monitoring, alerting, and system health checks across distributed environments.  
+Ensured compliance, security hardening, and operational exc ellence across cloud resources : 
+ 
+ORGANIZATION   SeethruTec,  PAKISTAN  JUNE  2022  TO AGUST 2024  WWW .SEETHRUTEC .COM   
+DESIGNATION  Sr DevOps  Engineer   
+JOB  DESCRIPTION  In my current  role,  I manage  AWS  and Microsoft  platforms,  overseeing  client -specific  servers  and 
+applications. I lead Jenkins CI/CD pipelines for automated deployment on remote servers, eliminating 
+manual tasks and ensuring seamless releases. With a focus on Azure Kubernetes, I architect scal able 
+solutions and monitor applications through ELK stack and Grafana, swiftly identifying performance 
+issues. I enhance security through Cloudflare DNS and implement Nginx and Zu ll proxy for secure data 
+transmission, fortifying our infrastructure against emerging threats.  
+ORGANIZATION  Arcana  Info PAKISTAN  April  2021  TO JUNE  2022  WWW .ARCANAINFO .COM  
+DESIGNATION  DevOps Engineer  
+JOB  DESCRIPTION  At Mobilink/Jazz Data Center, I managed finance app deployments using Jenkins and CHEF for 
+configuration. Monitoring utilized HUAWEI web tools for real -time insights. I integrated F5 load balancer 
+for enhanced security, deploying  Ubuntu servers as efficien t containers. I oversaw Java and Node.js app 
+deployments via Bitbucket pipelines. Also, orchestrated on -premises data center migration to AWS for 
+seamless, scalable infrastructure transition.  
+ORGANIZATION  MEDINA  DAIRY  PAKISTAN  JAN 2019  TO APRIL  2021  
+WWW.MEDINADAIRY.CO.UK  
+DESIGNATION  DevOps  Engineer  
+JOB  DESCRIPTION   
+Proficient  in SAP B1 and HANA  admin,  encompassing  user  management,  authorization,  and forms.  I am 
+skilled  in server installation, maintenance, troubleshooting, and clustering. Windows Server expertise 
+including AD, GPOs, user/group management across 20 sites.  
+Effective Citrix supports  XEN APP environment, addressing performance, printing, and networking. 
+Mana ged Cisco/Huawei  routers/switches.  Office  365 proficiency:  group  management,  shared  mailboxes, 
+licensing.  
+Implemented  DARK  TRACE  & BITDEFENDER  for robust  security.  Hyper -V cluster  configuration.  Monitored  
+ 
+Certifications  & Trainings  
+ Amazon  Solution  Architect  Certified  (Amazon  web  Services)   Microsoft  Certified  Systems  Engineer  (Training  from  CISCOM  Pakistan)  
+ Azure  Kubernetes  Service  Certified  AKS (Udemy)  
+ Microsoft  Certified  – Azure  Fundamentals  (Udemy)  
+ Huawei  Certified  ICT Professional  (Certified  from  Huawei)  
+Career  Achievements  
+ Got 3 Performance  Excellence  Awards,  1 Team  Performance  Excellence  Award,  1 Green  Slip from  seethrutec  Technologies.  
+ Got Team  Performance  Excellence  award  from  Medina  Dairy  
+ Got Performance  Excellence  Award  from  Arcana  Info 
+      Education  
+MSC  -IT - SUPERIOR  University  Lahore,  Pakistan  Completed:  2019  
+Hobbies/Interests  
+Traveling,  Computer  Games,  Gardening  and Piano  playing  
+Personal  Details  
+Nationality  Pakistani 
+Marital Status  Married  
+Languages:  English  (Advanced),  Highly  motivated  to learn  German. 
+Availability  ASAP 
